@@ -93,8 +93,8 @@ const Page = () => {
       </Section>
       <Section>
         <blockquote className="mt-6 border-l-2 pl-6 italic">
-          "Failure is the foundation of success; and perseverance is the key to
-          achieving it."
+          &quot;Failure is the foundation of success; and perseverance is the
+          key to achieving it.&quot;
         </blockquote>
       </Section>
     </div>
