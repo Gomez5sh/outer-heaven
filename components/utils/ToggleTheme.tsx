@@ -1,7 +1,7 @@
 "use client";
 import { AnimatePresence, motion } from "framer-motion";
 import { Moon, Sun } from "lucide-react";
-import { useTheme } from "../layouts/ThemeProvider";
+import { useTheme } from "../ThemeProvider";
 import { Button } from "../ui/button";
 
 type Theme = "dark" | "light";

@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
-import { ThemeProvider } from "./ThemeProvider";
+import { ThemeProvider } from "../ThemeProvider";
 import Navbar from "./navbar";
 
 const geistSans = Geist({

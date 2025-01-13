@@ -5,11 +5,15 @@ import Logo from "../utils/Logo";
 import NextLink from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useTheme } from "./ThemeProvider";
+import { useTheme } from "../ThemeProvider";
 import { ThemeToggle } from "../utils/ToggleTheme";
 
 const linksItems = () => {
   return [
+    {
+      name: "Home",
+      href: "/",
+    },
     {
       name: "Works",
       href: "/works",
